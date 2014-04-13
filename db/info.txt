@@ -1,0 +1,13 @@
+database:derivo
+user:derivo
+pass:
+
+
+
+user:mally
+pass:12345
+
+админпанель
+http://assortiland.com.ua/drv-admin/
+user:mally
+pass:12345

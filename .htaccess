@@ -1,0 +1,24 @@
+AddDefaultCharset UTF-8
+DirectoryIndex index.php index.html index.htm
+RewriteEngine On
+#Options +FollowSymlinks
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.+) /index.php?do=$1 [QSA,L]
+
+## UFO thumb
+RewriteCond %{QUERY_STRING} w=[0-9]+ [OR]
+RewriteCond %{QUERY_STRING} h=[0-9]+ [OR]
+RewriteCond %{QUERY_STRING} r=[0-9]+ [OR]
+RewriteCond %{QUERY_STRING} ^tc?$
+RewriteRule  ^(.*)\.(jpg|gif|png) /index.thumb.php?name=%{REQUEST_FILENAME}&%{QUERY_STRING} [NC,L]
+
+
+
+
+
+
+
+

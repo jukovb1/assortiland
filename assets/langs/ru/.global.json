@@ -1,0 +1,158 @@
+{
+    // Глобальные записи
+
+    "{empty}"           : "",
+    "{slogan}"          : " - Мы поможем Вам заработать",
+
+
+    // Заглушки для модулей
+
+    "{module_name}"     : "Имя модуля",
+	"{control_site}"    : "Внешняя оболочка сайта",
+	
+	// Авторизация и регистрация пользователей
+    "{logout}"              : "Выход",
+    "{auth_activate_profile_msg}"              : "Вы не активировали учётную запись. Проверьте почту.",
+    "{auth_hello_user}"     : "Добро пожаловать, {:USER_NAME:}",
+	"{reg_title}"			: "Регистрация",
+	"{auth_title}"			: "Авторизация",
+	"{auth_error_double_auth}"			: "Ошибка! Вы уже авторизованы!",
+	"{auth_enter}"			: "Войти",
+    "{auth_login}"			: "Логин",
+	"{auth_login_holder}"	: "Введите логин",
+    "{auth_pass}"			: "Пароль",
+	"{auth_pass_holder}"	: "Введите пароль",
+	"{auth_registration}"	: "Регистрация",
+
+    "{auth_profile}"        :   "Профиль",
+    "{auth_cart}"         	:   "Корзина",
+    "{auth_logout}"        	:   "Выход",
+
+
+    // Топ меню фронта
+	"{site_map}"   	: "Карта сайта",
+	"{about}"   	: "О проекте",
+	"{faq}"   		: "Вопросы и ответы",
+	"{partners}"   	: "Партнерам",
+	"{sellers}"   	: "Продавцам",
+	"{offers}"   	: "Предложения",
+	
+	// Main меню фронта
+	"{main_menu}"   	: "Главная",
+	"{main_submenu}"	: "начни с нами",
+	"{catalog_menu}"	: "Каталог",
+	"{catalog_menu_user}"	: "Каталог пользователя: {:USER_NAME:}",
+	"{catalog_submenu}"	: "ассортимент",
+	"{about_menu}"  	: "О проекте",
+	"{about_submenu}"  	: "наши идеи",
+	"{sellers_menu}"	: "Продавцы",
+	"{sellers_submenu}"	: "продажи онлайн",
+
+
+
+    "{del_from_partner_cat}"	: "Удалить из своего каталога",
+
+	// Слайдеры фронта
+	"{slider_title}"   	: "Заголовок для вашего будущего слайда",
+	"{slider_subtitle}"	: "Мы все сделаем за вас как-то так!",
+	"{slider_desc}"		: "Lorem Ipsum - это текст - 'рыба', часто используемый в печати и вэб-дизайне.Lorem Ipsum является стандартной 'рыбой' для текстов на латинице с начала XVI века.",
+	"{slider_button}"	: "Подробнее",
+	"{slider_button_url}": "javascript:void(0)",
+	"{slider_image}"  	: "/assets/images/slider/slide1.png",
+	"{quotes_slider_name}": "Афоризмы",
+
+    // действия
+
+    "{action_button}"       : "Применить",
+    "{action_default}"      : "Действия",
+    "{action_edit}"         : "Изменить",
+    "{action_save}"         : "Сохранить",
+    "{action_cancel}"       : "Отменить",
+    "{action_del}"          : "Удалить",
+    "{action_show}"         : "Опубликовать",
+    "{action_hide}"         : "Скрыть",
+    "{action_recovery}"     : "Восстановить",
+    "{action_go_back}"     : "Вернуться",
+
+    "{status_show}"         : "Опубликовано",
+    "{status_hide}"         : "Скрыто",
+    "{status_del}"          : "Удалено",
+
+    "{search_value}"        : "Поиск",
+    "{add_button}"          : "Добавить",
+
+
+
+
+    // постраничная навигация
+    "{page_nav_prev}"        : "Предыдущая станица ({:PREV:})",
+    "{page_nav_next}"        : "Следующая станица ({:NEXT:})",
+    "{page_nav_show_all}"    : "Показать все",
+    "{page_nav_show_all_text}": "Показать все записи на одной странице",
+    "{page_nav_show_by_page}": "Постранично",
+    "{page_nav_show_by_page_text}": "Показать постранично",
+    "{page_nav_default_items}":"записей",
+    "{page_nav_from}"       : "из",
+    "{page_nav_first}"       : "Первая страница",
+    "{page_nav_last}"       : "Последняя страница ({:LAST:})",
+    "{page_nav_info_text}"       : "Всего сохранено {:COUNT_TOTAL:} записей",
+    "{page_nav_info_dop_text}"       : ", показано {:NUM_IN_PAGE:}. Страница {:CUR_PAGE:} из {:TOTAL_PAGES:}.",
+
+
+
+    // комментарии
+    "{no_comments}"                 : "Комментарии запрещены",
+    "{comment_placeholder}"         : "Введите текст комментария",
+    "{send_comment}"                : "Оставить комментарий",
+    "{no_comments_for_this_target}" : "Пока нет комментариев. Оставьте первый.",
+    "{comment_del}"                 : "Удалить комментарий",
+    "{comment_del_status}"          : "Комментарий успешно удалён.",
+    "{comment_recovery}"            : "Восстановить",
+    "{comment_no_auth}"             : "Только авторизованные пользователи имеют возможность комментирования.",
+    "{comments_timeout}"            : "Это действие нельзя совершать чаще, чем раз в {:TIMEOUT:}сек. Подождите ещё {:REMAINING_TIME:}сек.",
+
+
+    // footer
+    "{footer_statistic_title}"             : "Статистика",
+    "{footer_statistic_count_products}"    : "Количество товаров",
+    "{footer_statistic_count_sellers}"     : "Количество продавцов",
+    "{footer_statistic_count_partners}"    : "Количество партнёров",
+
+
+
+    // отправка сообщения
+    "{email_action_activate}"    		: "Активировать мой профиль",
+    "{email_msg_system_info_about}"		: "С уважением, служба поддержки {:SUPPORT_LINK:}",
+    "{email_msg_no_request}"    		: "Это сообщение было отправлено автоматически. Пожалуйста, не отвечайте на него.",
+    "{email_action_required_confirm}"   : "Активация учётной записи.",
+    "{email_msg_for_activated}"    		: "Здравствуйте, {:USER_NAME:}<br/>Команда \"{:SITE_NAME:}\" благодарит Вас за регистрацию! Чтобы Вы смогли получить доступ ко всем сервисам сайта, необходимо активировать Ваш профиль. <br> Нажмите на кнопку «Активировать мой профиль» ниже.<br><br>{:BUTTON:}<br><br> Если вы не регистрировались на сайте \"{:SITE_NAME:}\", не обращайте внимание на это сообщение.",
+    "{email_for_admin_new_registration_subject}"    : "Регистрация нового пользователя.",
+    "{email_for_admin_new_registration_text}"  		: "Ув. администратор, на сайте \"{:SITE_NAME:}\" зарегистрирован новый пользователь {:USER_NAME:}.",
+	
+	// восстановление пароля
+	"{email_action_password_recovery}"  : "Восстановление пароля",
+	"{email_msg_for_password_recovery}" : "Здравствуйте, {:USER_NAME:}<br/>Вы получили это письмо, поскольку на адрес электронной почты <span style='color: #ff6418;'>{:USER_MAIL:}</span> зарегистрирован пользователь с логином <span style='color: #ff6418;'>{:USER_LOGIN:}</span>.<br>Нажмите на кнопку «Сбросить пароль» ниже.<br><br>{:BUTTON:}<br><br>Если произошла ошибка, просто проигнорируйте это письмо.",
+	"{email_for_admin_new_password_recovery}": "Ув. администратор, на сайте \"{:SITE_NAME:}\" пользователь с логином <span style='color: #ff6418;'>{:USER_LOGIN:}</span> попытался восстановить пароль.",
+	"{email_action_password_recovered_b}": "Войти",
+	"{email_action_password_recovered}" : "Восстановление пароля / Новый пароль",
+	"{email_msg_for_password_recovered}": "Здравствуйте, {:USER_NAME:}<br/>Вы получили это письмо, поскольку пользователь с логином <span style='color: #ff6418;'>{:USER_LOGIN:}</span> и адресом электронной почты <span style='color: #ff6418;'>{:USER_MAIL:}</span> произвел восстановление пароля.<br><br>Ваш новый пароль: <span style='color: #ff6418;'>{:USER_PASS:}</span><br>Нажмите на кнопку «Войти» ниже, авторизируйтесь и измените пароль на выбранный вами для лучшей безопасности.<br><br>{:BUTTON:}<br><br>Если произошла ошибка, просто проигнорируйте это письмо.",
+	"{email_for_admin_new_password_recovered}": "Ув. администратор, на сайте \"{:SITE_NAME:}\" пользователь с логином <span style='color: #ff6418;'>{:USER_LOGIN:}</span> изменил пароль на <span style='color: #ff6418;'>{:USER_PASS:}</span>.",
+
+    // обработка ответов от системы
+
+    "{IE_error_db}"   : "Ошибка обращения к записи",
+    "{IE_del_ok}"     : "Успешно удалено",
+    "{IE_recovery_ok}": "Успешно восстановлено",
+
+    "{access_denied}"    : "У вас недостаточно прав для этого действия",
+
+    "{no_auth}"    : "Вы не авторизованы",
+    "{action_denied}"    : "Вы не можете совершать это действие",
+    "{required_text}"    : "Поле обязательное для заполнения",
+    "{IE_0x100}"    : "Успешно сохранено",
+    "{IE_0x101}"    : "Успешно сохранено",
+
+    "{IE_2x100}"    : "Ошибка при сохранении",
+    "{IE_1x100}"    : "",
+    "{IE_1x101}"    : ""
+}

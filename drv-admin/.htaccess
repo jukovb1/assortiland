@@ -1,0 +1,20 @@
+AddDefaultCharset UTF-8
+DirectoryIndex index.php index.html index.htm
+Options -Indexes
+
+RewriteEngine On
+#Options +FollowSymlinks
+
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.+) /drv-admin/index.php?do=$1 [QSA,L]
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+{
+    // Общее
+
+    "{module_name}"         : "Content",
+    "{current_module}"      : "Data report",
+    "{empty_content_list}"  : "Нет записей для этого типа контента",
+
+    "{action_button}"       : "Apply",
+    "{action_default}"      : "Actions",
+    "{action_edit}"         : "Edit",
+    "{action_del}"          : "Delete",
+    "{action_show}"         : "Show",
+    "{action_hide}"         : "Hide",
+    "{action_recovery}"     : "Recovery",
+
+    "{status_show}"         : "Showed",
+    "{status_hide}"         : "Hided",
+    "{status_del}"          : "Deleted",
+
+    "{search_value}"        : "Search",
+    "{add_button}"          : "Add",
+
+    "{confirm_text}"        : "Do you wont delete is data?",
+
+
+
+
+
+    // обработка ответов от системы
+
+    "{IE_show_ok}"    : "Successful show",
+    "{IE_hide_ok}"    : "Successful hide",
+    "{IE_del_ok}"     : "Successful deleted",
+    "{IE_recovery_ok}": "Successful recovery",
+
+    "{IE_0x100}"    : "Data save successful",
+
+
+
+    "{IE_1x102}"    : "No saved data",
+    "{IE_2x100}"    : "Error saving"
+
+}

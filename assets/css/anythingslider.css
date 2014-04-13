@@ -1,0 +1,298 @@
+/* change the ID to match your slider */
+.slider-wrapper {
+    width: 960px;
+    height: 355px;
+    position: relative;
+}
+.partners-slider-wrapper {
+    width: 960px;
+    height: 180px;
+    position: relative;
+}
+.quotes-slider-wrapper {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+}
+#slider {
+    padding: 0;
+    margin: 0;
+    width: 959px;
+    height: 354px;
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    z-index: 0;
+}
+#quote-slider {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 140px;
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    z-index: 0;
+    color: #fff;
+}
+#partners-slider {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 180px;
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    z-index: 0;
+    color: #fff;
+}
+.partners-slider {
+	padding: 0;
+	margin: 0;
+	width: 960px;
+	height: 180px;
+	list-style: none;
+	display: block;
+	overflow: hidden;
+	z-index: 0;
+	color: #fff;
+}
+.partners-slider ul {
+    width: 20000em;
+    height: 100%;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.partners-slider li {
+	float: left;
+	width: 180px;
+	margin: 30px 5px 15px 10px;
+}
+.jcarousel {
+	padding: 0;
+	margin: 0;
+	width: 130px;
+	height: 302px;
+	list-style: none;
+	display: block;
+	overflow: hidden;
+	z-index: 0;
+	color: #fff;
+}
+.jcarousel ul {
+    width: 100%;
+    height: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#quote-slider li {
+    font-style: italic;
+}
+#quote-slider p{
+    padding: 5px 30px;
+    overflow: hidden;
+    height: 55px;
+}
+.author {
+    font-weight: bold;
+    font-style: normal;
+    position: absolute;
+    bottom: 7px;
+    font-size: 14px
+}
+.l-q {
+    background: url('../images/other/l-quote.png') no-repeat;
+    width: 20px;
+    height: 15px;
+}
+.r-q {
+    background: url('../images/other/r-quote.png') no-repeat;
+    width: 20px;
+    height: 15px;
+    float: right;
+}
+/* Opera width restriction */
+.anythingBase { max-width: 32766px; }
+
+/*****************
+  SET COLORS HERE
+ *****************/
+/**** Default state (no keyboard focus) ****/
+div.anythingSlider {
+    color: #000000;
+}
+
+/***********************
+  COMMON SLIDER STYLING
+ ***********************/
+/* Overall Wrapper: 45px right & left padding for the arrows, 28px @ bottom for navigation */
+div.anythingSlider {
+    display: block;
+    overflow: visible !important; /* needed for Opera and Safari */
+    position: relative;
+    margin: 0 auto;
+}
+/* anythingSlider viewport window */
+div.anythingSlider .anythingWindow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/* anythingSlider base (original element) */
+.anythingBase {
+    background: transparent;
+    list-style: none;
+    position: absolute;
+    overflow: visible !important;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+/* all panels inside the slider */
+.anythingBase .panel {
+    background: transparent;
+    display: block;
+    overflow: hidden;
+    float: left;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.anythingBase .panel.vertical {
+    float: none;
+}
+
+/* back arrow */
+.slider-left-arrow {
+    left: 880px;
+    bottom: 10px;
+    position: absolute;
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url("../images/slider/slider-ar-top.png") 0 -36px no-repeat;
+    cursor: pointer;
+    z-index: 1;
+    text-indent: -9999px;
+}
+.slider-left-arrow:hover  {
+    background: url("../images/slider/slider-ar-top.png") 0 0 no-repeat;
+}
+/* forward arrow */
+.slider-right-arrow {
+    left: 920px;
+    bottom: 10px;
+    position: absolute;
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url("../images/slider/slider-ar-top.png") -36px -36px no-repeat;
+    cursor: pointer;
+    z-index: 1;
+    text-indent: -9999px;
+}
+.slider-right-arrow:hover {
+    background: url("../images/slider/slider-ar-top.png") -36px 0 no-repeat;
+}
+/* partners back arrow */
+.partners-slider-left-arrow {
+    left: 909px;
+    top: -25px;
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url("../images/slider/slider-arrows.png") 0 -25px no-repeat;
+    cursor: pointer;
+    z-index: 1;
+    text-indent: -9999px;
+}
+.partners-slider-left-arrow:hover  {
+    background: url("../images/slider/slider-arrows.png") 0 0 no-repeat;
+}
+/* subcategory forward arrow */
+.subcatmenu-slider-right-arrow {
+	position: absolute !important;
+	display: block !important;
+	width: 25px !important;
+	height: 25px !important;
+	background: url("../images/slider/slider-arrows-vert.png") -25px -25px no-repeat;
+	cursor: pointer;
+	z-index: 1;
+	text-indent: -9999px;
+	left: 65px;
+	top: 0px;
+}
+.subcatmenu-slider-right-arrow:hover {
+	background: url("../images/slider/slider-arrows-vert.png") -25px 0 no-repeat;
+}
+/* partners back arrow */
+.subcatmenu-slider-left-arrow {
+	position: absolute !important;
+	display: block !important;
+	width: 25px !important;
+	height: 25px !important;
+	background: url("../images/slider/slider-arrows-vert.png") 0 -25px no-repeat;
+	cursor: pointer;
+	z-index: 1;
+	text-indent: -9999px;
+	left: 65px;
+	bottom: 0px;
+}
+.subcatmenu-slider-left-arrow:hover  {
+	background: url("../images/slider/slider-arrows-vert.png") 0 0 no-repeat;
+}
+/* partners forward arrow */
+.partners-slider-right-arrow {
+    left: 935px;
+    top: -25px;
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url("../images/slider/slider-arrows.png") -25px -25px no-repeat;
+    cursor: pointer;
+    z-index: 1;
+    text-indent: -9999px;
+}
+.partners-slider-right-arrow:hover {
+    background: url("../images/slider/slider-arrows.png") -25px 0 no-repeat;
+}
+/* slider autoplay right-to-left, reverse order of nav links to look better */
+.anythingControls {
+    float: right;
+    position: relative;
+    bottom: 20px;
+}
+div.anythingSlider.rtl .anythingControls ul a { float: right; } /* reverse order of nav links */
+div.anythingSlider.rtl .anythingControls ul{ float: left;}    /* move nav link group to left */
+.anythingControls ul li a {
+    background: url('../images/slider/nonebul.png') no-repeat;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    text-indent:-9999px;
+    display: block;
+}
+.anythingControls ul li a.cur {
+    background: url('../images/slider/linkbul.png') no-repeat;
+}
+div.anythingSlider.rtl .anythingWindow {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+/* div.anythingSlider.rtl .start-stop { float: right; } */ /* move start/stop button - in case you want to switch sides */
+
+/* probably not necessary, but added just in case */
+div.anythingSlider, div.anythingSlider .anythingWindow, div.anythingSlider .anythingControls ul a, div.anythingSlider .arrow a, div.anythingSlider .start-stop {
+    transition-duration: 0;
+    -o-transition-duration: 0;
+    -moz-transition-duration: 0;
+    -webkit-transition-duration: 0;
+}

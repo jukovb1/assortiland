@@ -1,0 +1,45 @@
+{
+
+    "{module_name}"         :   "Каталог товаров",
+
+
+
+    "{no_products_in_group}"         :   "В этой категории нет товаров",
+
+
+
+
+    "{all_products}"    :   "Все товары",
+    "{catalog}"         :   "Каталог",
+    "{catalog_seller}"  :   "Предложения продавца",
+    "{catalog_partner}" :   "Предложения партнера",
+    "{category}"        :   "Категории",
+    "{search}"          :   "Поиск",
+    "{search_text}"     :   "Я ищу...",
+    "{cost}"            :   "Цена",
+    "{offer}"           :   "Вознаграждение %",
+    "{cost_from}"       :   "От",
+    "{cost_to}"         :   "до",
+    "{cost_text_min}"   :   "Минимальная цена",
+    "{cost_text_max}"   :   "Максимальная цена",
+    "{button_ok}"       :   "OK",
+    "{button_cancel}"   :   "Сброс",
+    "{cloud_top}"       :   "Популярное",
+
+
+    "{sort}"                      :   "Сортировка",
+    "{sort_by_cost_max_to_min}"   :   "По убыванию цены",
+    "{sort_by_cost_min_to_max}"   :   "По возрастанию цены",
+    "{sort_by_name}"              :   "По названию",
+    "{sort_by_date}"              :   "По дате добавления",
+
+
+
+    "{page_nav_price_info}"     : "C учётом фильтра цены в этой категории найдено {:COUNT_SEARCHED:} товаров",
+    "{page_nav_search_info}"     : "По поисковому запросу {:SEARCH_WORD:} в этой категории найдено {:COUNT_SEARCHED:} товаров",
+    "{page_nav_info_text}"       : "Всего в категории {:COUNT_TOTAL:} товаров",
+    "{page_nav_info_dop_text}"   : ", показано {:NUM_IN_PAGE:}. Страница {:CUR_PAGE:} из {:TOTAL_PAGES:}."
+
+
+
+}

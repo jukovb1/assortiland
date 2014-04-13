@@ -1,0 +1,18 @@
+{
+
+    "{module_name}"         :   "Продавцы",
+    
+    "{alt_img_1}"           :   "Иллюстрация",
+
+    "{partners_block_title}":   "Наши партнеры и клиенты",
+    
+    // продавцы
+    "{sellers_fio}"         	:   "Наименование продавца",
+    "{sellers_login}"       	:   "Логин",
+    "{sellers_gender}"         	:   "Пол",
+    "{sellers_gender_m}"        :   "М",
+    "{sellers_gender_f}"        :   "Ж",
+    "{sellers_email}"       	:   "E-mail",
+    "{sellers_count_products}"	:   "Кол. тов."
+
+}

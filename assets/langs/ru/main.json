@@ -1,0 +1,20 @@
+{
+
+    "{module_name}"         :   "Главная страница",
+
+
+
+    "{alt_img_1}"           :   "Иллюстрация",
+
+
+
+    "{partners_block_title}":   "Наши партнеры и клиенты",
+
+    "{sales_show_all}"           :   "Показать все предложения",
+    "{sales_show_act}"           :   "Акции",
+    "{sales_show_new}"           :   "Новинки",
+    "{sales_show_top}"           :   "Лидеры"
+
+
+
+}
